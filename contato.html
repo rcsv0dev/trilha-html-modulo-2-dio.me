@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="Imagens/contato.png" alt="">
+                <h1>Contato</h1>
+            </div>
+    
+            <div class="content">
+                <form onsubmit="" method="GET" >
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                            <label>Nome: </label><input type="text" name="name"><br>
+                            <label>E-mail: </label><input type="text" name="name"><br>
+                            <label>Telefone:</label><input type="tel" id="telefone" name="telefone"><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Data da Consulta</legend>
+                        <label></label></label><input type="date" id="data" name="data"><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Especialidade Desejada</legend>
+                    
+                        <select name="role" ><br>
+                            <option value="">Selecione a Especialidade</option><br>
+                            <option value="limpeza">Limpeza e Prevenção</option><br>
+                            <option value="restaurador">Tratamentos Restauradores</option><br>
+                            <option value="clareamento">Clareamento Dental</option>
+                            <option value="implante">Implantes Dentários</option>
+                            <option value="ortodontia">Ortodontia</option>
+                            <option value="estetica">Estética Dental</option>
+                        </select><br>
+                    </fieldset>
+                        <legend>Observações:</legend>  
+                        <textarea rows="8" name="observações"></textarea> <br> <input id="consulta" type="submit" value="Agendar Consulta"><br>
+            </form>
+            </div>
+            <div class="endereco">
+                <h3>Endereço</h3>
+                <p>
+                    Smile Clinic <br>
+                    123 Rua dos Sorrisos <br>
+                    Cidade Imaginária, Estado XPTO <br>
+                    CEP: 12345-678 <br>
+                </p>
+                <h3>Telefone</h3>
+                <p>(00) 0000-0000</p>
+            </div>
+            <div class="mapBox">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7745357.493145318!2d-45.45145529999999!3d-18.577967899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1687915971403!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+            <div class="footer">
+                <h6>Todos os direitos reservados.©</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
