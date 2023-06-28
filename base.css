@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #e6e6ff;
+    padding: 10px 40px 0px;
+}
+.header {
+    background-color: #f1f1f1;
+    min-height: 150px;
+}
+.content {
+    background-color: #f1f1f1;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: f1f1f1;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+fieldset {
+    margin: 15px 0;
+    border-radius: 10px;
+    border-color: gainsboro;
+    justify-content: right;
+}
+table {
+    width: 250px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+      
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+      
+thead th {
+    background-color: #c1ddeb;
+}
+      
+tbody tr:nth-child(even) {
+    background-color: #e2f3f8;
+}
+      
+tbody td {
+    border-top: 1px solid #ccc;
+}
+      
+tbody tr:last-child td {
+    border-bottom: 1px solid #ccc;
+}
+
+textarea {
+    width: 975px;
+    height: 99px;
+}
+
+.mapBox {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #fff;
+}
+
+.mapBox iframe {
+    width: 100%;
+    height: 100%;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.3;
+}
